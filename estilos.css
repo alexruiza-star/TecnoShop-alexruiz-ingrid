@@ -1,5 +1,12 @@
 /* ===== ESTILOS GENERALES ===== */
 /* Selector de etiqueta: aplica a toda la página - Requisito Línea B */
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
